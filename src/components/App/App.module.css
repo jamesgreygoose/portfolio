@@ -1,0 +1,35 @@
+body {
+}
+
+.nav-bar {
+  background-image: linear-gradient(rgb(45, 117, 138), lightblue);
+  border-bottom: 1px solid silver;
+  display: flex;
+  align-items: center;
+}
+.nav-bar > * {
+  margin-left: 1em;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0 20px;
+  border: black solid 2px;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav:hover {
+  background-color: red;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+ul {
+  background-image: linear-gradient(lightblue, white);
+  padding: 20px;
+  margin: none;
+}
