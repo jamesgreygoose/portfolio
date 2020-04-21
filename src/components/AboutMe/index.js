@@ -58,7 +58,7 @@ export default class extends React.Component {
           redirected...
         </h2>
         <a
-          href="https://twitter.com/superchimpyboy"
+          href="https://twitter.com/JamesGreygoose"
           target="_blank"
           id={css.twitterButton}
         ></a>
