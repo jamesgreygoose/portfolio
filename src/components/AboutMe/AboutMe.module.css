@@ -52,6 +52,10 @@ input {
   border-radius: 10px;
 }
 
+input:hover {
+  border: red solid 3px;
+}
+
 #letsTalk {
   margin: 10px 0;
 }

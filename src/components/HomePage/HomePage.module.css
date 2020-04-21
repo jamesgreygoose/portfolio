@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-  opacity: 50%;
+  border: red solid 3px;
 }
 
 #screen {
