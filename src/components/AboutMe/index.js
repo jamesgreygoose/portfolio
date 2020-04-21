@@ -79,12 +79,6 @@ export default class extends React.Component {
   handleSubmit(event) {
     const templateId = "template_LCdSBdw2";
 
-    // var template_params = {
-    //   reply_to: "reply_to_value",
-    //   from_name: "from_name_value",
-    //   to_name: "to_name_value",
-    //   message_html: "message_html_value",
-    // };
     this.sendFeedback(templateId, {
       message_html: this.state.message_html,
       from_name: this.state.from_name,
