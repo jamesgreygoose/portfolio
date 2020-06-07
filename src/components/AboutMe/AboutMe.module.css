@@ -1,11 +1,24 @@
 .main {
-  min-height: 100vh;
+  height: 80vh;
   background-position: contain;
   background-repeat: no-repeat;
 }
-.heading {
-  padding-left: 20vw;
-  color: white;
+
+#hello {
+  text-align: center;
+  padding: none;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 1em;
+  text-align: center;
 }
 
 .speech {
@@ -13,43 +26,14 @@
   font-weight: bold;
   margin: 18em 0 0 6em;
 }
-h2 {
-  font-family: "Parisienne", cursive;
-}
-#twitterButton,
-#linkedInButton {
-  width: 6vw;
-  height: 7vw;
-  border: black solid 2px;
-  border-radius: 20px;
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 5vh 10vw;
-}
-
-#twitterButton {
-  background-image: url("../../images/twitter.png");
-  background-size: 100% auto;
-  padding: 2vh 2vw;
-}
-
-#linkedInButton {
-  background-image: url("../../images/Linkedin.png");
-  background-size: 92% auto;
-  padding: 2vh 2vw;
-}
-
-textarea {
-  font-size: 20px;
-}
 
 input {
   background-color: yellow;
   border: black solid 2px;
   width: 12vw;
   height: 3vw;
-  border-radius: 10px;
+  border-radius: 1vw;
+  font-size: 2vw;
 }
 
 input:hover {
@@ -57,9 +41,51 @@ input:hover {
 }
 
 #letsTalk {
-  margin: 10px 0;
+  margin: 4vh 0;
+  padding: 8vh 0 3vh 0;
+  text-align: center;
 }
 
-#socialMediaTitle {
-  margin: 50px 0 0 0;
+.submitButton {
+  position: absolute;
+  bottom: -50vh;
+  left: 89vw;
+  transform: translate(-50%);
+}
+
+#jamesPic {
+  width: 20vw;
+  display: block;
+  margin: 0 auto;
+}
+
+#aboutMeBlurb {
+  width: 86vw;
+  padding: 2vw;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border-radius: 1em;
+  font-size: 2vw;
+}
+
+#footer {
+  padding-top: 1rem;
+  position: absolute;
+  bottom: -60vh;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+  text-align: center;
+}
+
+.socialImages {
+  width: 2vw;
+  height: 2vw;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  position: relative;
+  right: 16px;
+}
+
+#contactForm {
+  margin-bottom: 40vh;
 }

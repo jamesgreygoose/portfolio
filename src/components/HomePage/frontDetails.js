@@ -10,6 +10,8 @@ function FrontDetails() {
         <li className={css.infoLi}>CSS</li>
         <li className={css.infoLi}>Javascript</li>
         <li className={css.infoLi}>React</li>
+        <li className={css.infoLi}>DOM</li>
+        <li className={css.infoLi}>Regex</li>
       </ul>
     </div>
   );

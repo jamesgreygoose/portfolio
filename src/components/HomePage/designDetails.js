@@ -11,6 +11,7 @@ function DesignDetails() {
         <li className={css.infoLi}>@Media</li>
         <li className={css.infoLi}>@keyframes</li>
         <li className={css.infoLi}>Google Fonts</li>
+        <li className={css.infoLi}>Figma</li>
       </ul>
     </div>
   );

@@ -1,28 +1,22 @@
 import React from "react";
 import css from "./App.module.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SideBar from "./Sidebar";
 
 import HomePage from "../HomePage";
 import Projects from "../Projects";
 import AboutMe from "../AboutMe";
+import HelloPage from "../helloPage";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <ul>
-          <li className={css.nav}>
-            <Link to="/home">Home</Link>
-          </li>
-          <li className={css.nav}>
-            <Link to="/about">About Me</Link>
-          </li>
-          <li className={css.nav}>
-            <Link to="/projects">Projects</Link>
-          </li>
-        </ul>
-
+    <div id={css.App}>
+      <SideBar />
+      <Router>
         <Switch>
+          <Route path="/hello">
+            <HelloPage />
+          </Route>
           <Route path="/home">
             <HomePage />
           </Route>
@@ -33,8 +27,9 @@ function App() {
             <Projects />
           </Route>
         </Switch>
-      </div>
-    </Router>
+        {/* </div> */}
+      </Router>
+    </div>
   );
 }
 

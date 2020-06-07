@@ -5,7 +5,10 @@ function StarterScreen() {
   return (
     <div className={css.infoDiv}>
       <h1 id={css.starter} class={css.heartbeat}>
-        Click on a button to see what I've been up to!
+        <br />
+        Click on a button to see just <br />
+        a few of the things
+        <br /> I've been up to!
       </h1>
     </div>
   );

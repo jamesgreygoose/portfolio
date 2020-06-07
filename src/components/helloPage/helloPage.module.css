@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+}
+
+.helloPage {
+  padding-left: 5vw;
+}
+
+.imJames {
+  font-size: 6vw;
+  position: relative;
+  top: 10vh;
+  margin: 0 0 15vh 0;
+}
+
+.clickAbove {
+  font-size: 2.5vw;
+  position: relative;
+  top: 5vh;
+  /* font-family: fantasy; */
+}
+
+#helloImJamesPic {
+  width: 20vw;
+}
