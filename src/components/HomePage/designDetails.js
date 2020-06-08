@@ -7,7 +7,7 @@ function DesignDetails() {
       <h1 className={css.bounce_top}>Designer</h1>
       <ul className={css.bounce_top}>
         <li className={css.infoLi}>CSS and CSS Grid</li>
-        <li className={css.infoLi}>Flexbox</li>
+        <li className={css.infoLi}>Flexbox and CSS Grids</li>
         <li className={css.infoLi}>@Media</li>
         <li className={css.infoLi}>@keyframes</li>
         <li className={css.infoLi}>Google Fonts</li>
