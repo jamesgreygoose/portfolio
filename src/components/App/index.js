@@ -14,7 +14,7 @@ function App() {
       <SideBar />
       <Router>
         <Switch>
-          <Route path="/">
+          <Route path="/hello">
             <HelloPage />
           </Route>
           <Route path="/home">
