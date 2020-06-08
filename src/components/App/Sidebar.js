@@ -7,7 +7,7 @@ export default (props) => {
     <>
       <div id={css.topMenu}></div>
       <Menu id={css.menu}>
-        <a className={css.menuItem} href="/">
+        <a className={css.menuItem} href="/hello">
           Hello
         </a>
 
